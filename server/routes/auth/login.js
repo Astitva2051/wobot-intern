@@ -4,7 +4,7 @@ var router = express.Router();
 const User = require("../../models/users");
 const jwt = require("jsonwebtoken");
 
-/* GET users listing. */
+
 router.post("/", async (req, res, next) => {
   try {
     // Get user input
